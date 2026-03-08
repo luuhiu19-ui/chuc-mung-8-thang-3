@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Chúc mừng 8/3 mẹ</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+text-align:center;
+color:white;
+background:#ff2d55;
+overflow:auto;
+}
+
+h1{
+margin-top:50px;
+}
+
+.container{
+padding:20px;
+}
+
+img{
+width:220px;
+border-radius:15px;
+margin:10px;
+border:4px solid white;
+}
+
+.heart{
+position:fixed;
+top:-20px;
+font-size:25px;
+animation:fall linear infinite;
+}
+
+@keyframes fall{
+0%{transform:translateY(-10px);}
+100%{transform:translateY(100vh);}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Chúc mừng 8/3 mẹ ❤️</h1>
+
+<div class="container">
+
+<p>
+Hôm nay là 8 tháng 3 
+,là ngày mà mọi phụ nũ trên thế giới 
+đều nhận đc những lời chúc và những món quà 
+,con mong mẹ có 1 ngày 8 tháng 3 vui vẻ hạnh
+phúc với gia đình và bạn bè mong là mẹ sẽ 
+gặp được nhiều may mắn và tốt đẹp
+,khá tiếc là con ko có món quà về vật chất nhưng món 
+quà tinh thần này mong mẹ sẽ đón nhận nó vui vẻ!
+  
+i love you người mẹ của con và vơ của ba!!!
+</p>
+
+<h2>Ảnh kỷ niệm</h2>
+
+<img src="ảnh 8 thang 3.jpg">
+<img src="ảnh 8 tháng 3 2.jpg">
+<img src="ảnh 8 tháng 3 1.jpg">
+
+</div>
+
+<script>
+for(let i=0;i<40;i++){
+let heart=document.createElement("div");
+heart.className="heart";
+heart.innerHTML="❤️";
+heart.style.left=Math.random()*100+"%";
+heart.style.animationDuration=(Math.random()*3+4)+"s";
+document.body.appendChild(heart);
+}
+</script>
+
+</body>
+</html>
+Chúc mẹ lê 8 tháng 3 hạnh phúc
